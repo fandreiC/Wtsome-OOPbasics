@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E5488B2C-9253-4ACC-8865-24EE217EAC24}</ProjectGuid>
+    <ProjectGuid>{6B25ED01-BB72-40E1-A528-78CEB4C8F5E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Week04Part01</RootNamespace>
-    <AssemblyName>Week04Part01</AssemblyName>
+    <RootNamespace>SimplePizza</RootNamespace>
+    <AssemblyName>SimplePizza</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,25 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProgramStart.cs" />
+    <Compile Include="PizzaStart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="HotelApp\HotelApp.csproj">
-      <Project>{fb55558d-ab93-46fb-9e28-939e95fa354e}</Project>
-      <Name>HotelApp</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimplePizza\SimplePizza.csproj">
-      <Project>{6b25ed01-bb72-40e1-a528-78ceb4c8f5e3}</Project>
-      <Name>SimplePizza</Name>
-    </ProjectReference>
-    <ProjectReference Include="TelerikHomework1\TelerikHomework1.csproj">
-      <Project>{9c95aa15-f742-40fb-a731-6070b3ac7687}</Project>
-      <Name>TelerikHomework1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

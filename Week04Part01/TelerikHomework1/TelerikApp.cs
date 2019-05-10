@@ -4,13 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week04Part01
+namespace TelerikHomework1
 {
-    class Program
+    public class TelerikApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("asd oop");
+            ShowScreen();
+        }
+       public static void ShowScreen()
+        {
+            Console.WriteLine("\n ShowScreen of Telerik Homework1 \n");
+
             Console.ReadKey();
         }
     }
