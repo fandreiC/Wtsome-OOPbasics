@@ -15,6 +15,8 @@ namespace SimplePizza
         public static void ShowScreen()
         {
             Console.WriteLine("\n ShowScreen of Simple Pizza \n");
+            Pizza pi1 = new Pizza();
+            pi1.PrintPizza();
 
             Console.ReadKey();
         }
