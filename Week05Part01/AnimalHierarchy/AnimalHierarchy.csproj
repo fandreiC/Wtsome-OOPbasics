@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C199FE95-7EDF-44BE-86C8-FC353F2ED0CE}</ProjectGuid>
+    <ProjectGuid>{51EB0B69-93E3-44EA-98CE-9D003B57C58E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Week05Part01</RootNamespace>
-    <AssemblyName>Week05Part01</AssemblyName>
+    <RootNamespace>AnimalHierarchy</RootNamespace>
+    <AssemblyName>AnimalHierarchy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clasa.cs" />
-    <Compile Include="Comment.cs" />
-    <Compile Include="Discipline.cs" />
-    <Compile Include="People.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="School.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

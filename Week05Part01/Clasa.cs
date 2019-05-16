@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Week05Part01
 {
-    class Clasa
+    class Clasa:Comment
     {
         private string textIdentifier;
         private List<Teacher> teachersList;

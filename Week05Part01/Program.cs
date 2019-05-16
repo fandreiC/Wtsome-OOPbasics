@@ -46,6 +46,7 @@ namespace Week05Part01
             var listaProfesori2 = new List<Teacher>() { TBogdan };
             var listaStudenti2 = new List<Student>() { SGeorge };
             Clasa clasa2 = new Clasa(listaProfesori2, listaStudenti2, "A2");
+            clasa2.SetComment("Clasa numarul 2 !!");
 
             var listaClase = new List<Clasa>() { clasa1, clasa2 };
             School scoalanr2 = new School("scoala2", 2,listaClase);
@@ -66,6 +67,8 @@ namespace Week05Part01
             SAndrei.PrintComment();
             Console.WriteLine("# # # # ");
             clasa2.PrintClass();
+            Console.WriteLine("# # # # ");
+            clasa2.PrintComment();
             
 
         }
