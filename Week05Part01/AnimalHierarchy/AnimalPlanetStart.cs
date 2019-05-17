@@ -15,9 +15,9 @@ namespace AnimalHierarchy
         }
         public static void ShowAnimals()
         {
-            Frog myFrog1 = new Frog("broscuta", 2, SexOfAnimal.Male, "doar saritoare");
-            Frog myFrog2 = new Frog("broscuta", 3, SexOfAnimal.Female);
-            Frog myFrog3 = new Frog("broscuta", 4);
+            Frog myFrog1 = new Frog("broscuta2", 2, SexOfAnimal.Male, "doar saritoare");
+            Frog myFrog2 = new Frog("broscuta3", 3, SexOfAnimal.Female);
+            Frog myFrog3 = new Frog("broscuta4", 4);
             Frog[] frogs = new Frog[] { myFrog1, myFrog2, myFrog3 };
 
             Dog[] dogs = new Dog[]
@@ -25,7 +25,7 @@ namespace AnimalHierarchy
             new Dog("Rex",12,SexOfAnimal.Male,"bulldog"),
             new Dog("Giant", 1, SexOfAnimal.Female, "pudel"),
             new Dog("Cutu", 3, SexOfAnimal.Male, "ciobanesc"),
-            new Dog("Cutu", 3, SexOfAnimal.Male),
+            new Dog("Cutu Schiop", 3, SexOfAnimal.Male),
             new Dog("Wolfy", 5),
             };
 

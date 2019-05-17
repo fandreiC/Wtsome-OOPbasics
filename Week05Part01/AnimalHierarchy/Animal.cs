@@ -13,7 +13,11 @@ namespace AnimalHierarchy
         private int age;
         private SexOfAnimal sex;
 
-        public string Name { get; set; }
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
+        }
         public int Age
         {
             get
@@ -56,23 +60,23 @@ namespace AnimalHierarchy
         public static void PrintAnimals(Animal[] animals)
         {
             Console.WriteLine("\n animals are {0} , have an average age of: {1}",
-                animals.GetType(),calculateAverageAge(animals));
+                animals.GetType(), calculateAverageAge(animals));
             animals[0].ProduceSound();
 
             foreach (var animal in animals)
             {
-               
+
                 Console.Write(" Name: {0}, age: {1}, gender: {2} ",
-                    animal.Name,animal.Age,animal.Sex);
-                if(animal is Frog)
-                    Console.WriteLine(" # jucausa: "+((Frog)animal).Jucausa);                
+                    animal.Name, animal.Age, animal.Sex);
+                if (animal is Frog)
+                    Console.WriteLine(" # jucausa: " + ((Frog)animal).Jucausa);
                 if (animal is Dog)
                     Console.WriteLine(" # rasa: " + ((Dog)animal).Rasa);
                 if (animal is Cat)
                     Console.WriteLine(" # culoare: " + ((Cat)animal).Color);
             }
 
-            
+
         }
 
     }

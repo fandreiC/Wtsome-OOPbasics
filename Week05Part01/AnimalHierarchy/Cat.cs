@@ -28,7 +28,7 @@ namespace AnimalHierarchy
     {
         public Kitten(string name, int age) : this(name, age, SexOfAnimal.Female, "pink") { }
         public Kitten(string name, int age, SexOfAnimal sex) : this(name, age, SexOfAnimal.Female, "pink") { }
-        public Kitten(string name, int age, SexOfAnimal sex, string color) : base(name, age, SexOfAnimal.Female, "pink") { }
+        public Kitten(string name, int age, SexOfAnimal sex, string color) : base(name, age, SexOfAnimal.Female,color) { }
 
         public override void ProduceSound()
         {
@@ -42,7 +42,7 @@ namespace AnimalHierarchy
     {
         public Tomcat(string name, int age) : this(name, age, SexOfAnimal.Male, "orange") { }
         public Tomcat(string name, int age, SexOfAnimal sex) : this(name, age, SexOfAnimal.Male, "orange") { }
-        public Tomcat(string name, int age, SexOfAnimal sex, string color) : base(name, age, SexOfAnimal.Male, "orange") { }
+        public Tomcat(string name, int age, SexOfAnimal sex, string color) : base(name, age, SexOfAnimal.Male, color) { }
 
         public override void ProduceSound()
         {
